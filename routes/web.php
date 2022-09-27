@@ -84,6 +84,7 @@ Route::post('/users/authenticate', [UserController::class, 'authenticate']);
 
 
 
+
 // db connection check
 Route::get('/dbconn', function () {
     return view('dbconn');
