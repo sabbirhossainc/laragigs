@@ -78,7 +78,7 @@
                 </label>
                 <input type="file" class="border border-gray-200 rounded p-2 w-full" name="logo" />
                 <img class="w-48 mr-6 mb-6" src="{{$listing->logo ? asset('storage/'. $listing->logo):
-                                         asset('/images/no-image.png')}}" alt="No image uploaded" />
+                                         asset('images/no-image.png')}}" alt="No image uploaded" />
                 @error('logo')
                 <p class="text-red-500 text-xs mt-1">{{$message}}</p>
                 @enderror
